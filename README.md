@@ -4,6 +4,7 @@
 <br>
 1. Simply type commands like a yolov5 and add "--mosaic-img" as follows:
   <br>
+<!-- $ sudo apt update && apt install -y libgl1-mesa-glx libsm6 libxext6 libxrender-dev -->
 ```bash
 $ python detect.py --source aaa/bbb.mp4 --mosaic-img
 <br>
