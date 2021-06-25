@@ -5,8 +5,8 @@
 1. Simply type commands like a yolov5 and add "--mosaic-img" as follows:
   <br>
   
-  <details open>
-<!-- $ sudo apt update && apt install -y libgl1-mesa-glx libsm6 libxext6 libxrender-dev -->
+
+
 ```bash
 $ python detect.py --source aaa/bbb.mp4 --mosaic-img
 $
@@ -16,16 +16,14 @@ $ python detect.py --source aaa/bbb.mp4 --mosaic-img--classes 0
 ```bash
 $ cd yolov5
 ```
-  
+
   
 ```bash
 $ git clone https://github.com/ultralytics/yolov5
 $ cd yolov5
 $ pip install -r requirements.txt
 ```
-  
-  
-  </details>
+
 <br>
 <br>
 
