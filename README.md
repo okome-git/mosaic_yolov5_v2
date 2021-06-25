@@ -4,12 +4,12 @@
 <br>
 1. Simply type commands like a yolov5 and add "--mosaic-img" as follows:
   <br>
-  &emsp;python .\detect.py --source aaa/bbb.mp4 --mosaic-img
+  &emsp;python detect.py --source aaa/bbb.mp4 --mosaic-img
     <br>
      <br>
     &emsp;if you want to make mosaic for specific class (ex. person):
     <br>
-  &emsp;python .\detect.py --source aaa/bbb.mp4 --mosaic-img--classes 0
+  &emsp;python detect.py --source aaa/bbb.mp4 --mosaic-img--classes 0
 <br>
 <br>
 
@@ -17,7 +17,7 @@
 <br>
 1. Create label using yolov5 as follows:
 <br>
- python .\detect.py --source aaa/bbb.mp4 --save-txt --classes 0
+ python detect.py --source aaa/bbb.mp4 --save-txt --classes 0
 <br>
 <br>
 2. Put original movie and label file
