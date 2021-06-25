@@ -42,8 +42,10 @@ $ python detect.py --source aaa/bbb.mp4 --save-txt --classes 0
 <br>
 3. Change mp4 file name in mosac.py
 <br>
-&emsp;[9] &emsp;video_path = "./data/original_movie/bbb.mp4" # bbb is your mp4 file name
 
+```python
+[9] video_path = "./data/original_movie/bbb.mp4" # bbb is your mp4 file name
+```
 
 <br>
 <br>
