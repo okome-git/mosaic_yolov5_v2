@@ -7,7 +7,7 @@
   
   <details open>
 <!-- $ sudo apt update && apt install -y libgl1-mesa-glx libsm6 libxext6 libxrender-dev -->
-```sh
+```bash
 $ python detect.py --source aaa/bbb.mp4 --mosaic-img
 $
 $ # if you want to make mosaic for specific class (ex. person):
