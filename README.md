@@ -7,7 +7,6 @@
   
 ```bash
 $ python detect.py --source aaa/bbb.mp4 --mosaic-img
-$
 $ # if you want to make mosaic for specific class (ex. person)
 $ python detect.py --source aaa/bbb.mp4 --mosaic-img--classes 0
 ```
@@ -21,7 +20,7 @@ $ python detect.py --source aaa/bbb.mp4 --mosaic-img--classes 0
 1. Create label using yolov5 as follows:
 <br>
 ```bash
- python detect.py --source aaa/bbb.mp4 --save-txt --classes 0
+$ python detect.py --source aaa/bbb.mp4 --save-txt --classes 0
 ```
 <br>
 <br>
@@ -48,6 +47,6 @@ $ python detect.py --source aaa/bbb.mp4 --mosaic-img--classes 0
 <br>
 4. Create mosaic movie
 ```bash
-python mosaic.py
+$ python mosaic.py
 ```
 <br>
