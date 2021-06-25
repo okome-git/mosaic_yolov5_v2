@@ -13,7 +13,7 @@ $ python detect.py --source aaa/bbb.mp4 --mosaic-img
 <br>
 $ if you want to make mosaic for specific class (ex. person):
 <br>
-&emsp;python detect.py --source aaa/bbb.mp4 --mosaic-img--classes 0
+python detect.py --source aaa/bbb.mp4 --mosaic-img--classes 0
 ```
   
   </details>
