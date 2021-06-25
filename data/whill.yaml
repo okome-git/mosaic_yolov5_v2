@@ -1,0 +1,25 @@
+# COCO 2017 dataset http://cocodataset.org - first 128 training images
+# Train command: python train.py --data coco128.yaml
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /coco128
+#     /yolov5
+
+
+# download command/URL (optional)
+#download: https://github.com/ultralytics/yolov5/releases/download/v1.0/coco128.zip
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: C:\Users\ntate\data\whill_dataset_3\train\images\ # 223 images
+val: C:\Users\ntate\data\whill_dataset_3\valid\images\ # 94 images
+
+
+# number of classes
+nc: 45
+
+# class names
+names: [ 'Kyabetu', 'kyuuri', 'shiitake', 'Jyagaimo', 'Daikon', 'Tamanegi', 'Nasu', 'Ninjin', 'Retasu', 'Ri-fu',
+         'Tomato', 'Minitomato', 'Hourensou', 'Komatuna', 'Yukina', 'Burokkori', 'Ichigo', 'Kikurage', 'Maitake', 'Negi',
+         'Konegi', 'Satumaimo', 'Enoki', 'Syungiku', 'Tubomina', 'Magarinegi', 'Renkon', 'Tidimihourensou', 'Serori', 'Mizuna',
+         'Karifurawa-', 'Kabu', 'Sani-retasu', 'Hakusai', 'Kara-minitomato', 'Pi-mann', 'Tingensai',
+         'Satoimo', 'Nira', 'Edamame', 'Papurika', 'Go-ya', 'Zukki-ni', 'Hiratake', 'Okura' ]
