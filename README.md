@@ -4,14 +4,14 @@
 <br>
 1. Simply type commands like a yolov5 and add "--mosaic-img" as follows:
   <br>
-  ```bash
-  $ python detect.py --source aaa/bbb.mp4 --mosaic-img
-    <br>
-     <br>
-  $ if you want to make mosaic for specific class (ex. person):
-    <br>
-  &emsp;python detect.py --source aaa/bbb.mp4 --mosaic-img--classes 0
-  ```
+```bash
+$ python detect.py --source aaa/bbb.mp4 --mosaic-img
+<br>
+<br>
+$ if you want to make mosaic for specific class (ex. person):
+<br>
+&emsp;python detect.py --source aaa/bbb.mp4 --mosaic-img--classes 0
+```
 <br>
 <br>
 
