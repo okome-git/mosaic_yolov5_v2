@@ -19,9 +19,11 @@ $ python detect.py --source aaa/bbb.mp4 --mosaic-img--classes 0
 <br>
 1. Create label using yolov5 as follows:
 <br>
+
 ```bash
 $ python detect.py --source aaa/bbb.mp4 --save-txt --classes 0
 ```
+
 <br>
 <br>
 2. Put original movie and label file
@@ -46,7 +48,9 @@ $ python detect.py --source aaa/bbb.mp4 --save-txt --classes 0
 <br>
 <br>
 4. Create mosaic movie
+
 ```bash
 $ python mosaic.py
 ```
+
 <br>
