@@ -16,6 +16,12 @@ $ if you want to make mosaic for specific class (ex. person):
 python detect.py --source aaa/bbb.mp4 --mosaic-img--classes 0
 ```
 
+```bash
+$ git clone https://github.com/ultralytics/yolov5
+$ cd yolov5
+$ pip install -r requirements.txt
+```
+
   
   </details>
 <br>
