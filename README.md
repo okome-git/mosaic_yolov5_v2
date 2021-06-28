@@ -1,6 +1,6 @@
 # mosaic_yolov5_v2
 
-![mosaic](__assets/zidane.jpg)
+![mosaic](_assets/zidane.jpg)
 
 ## Case1 : Use like a yolov5
 <br>
