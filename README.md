@@ -10,7 +10,7 @@
 ```bash
 $ python detect.py --source aaa/bbb.mp4 --mosaic-img
 $ # if you want to make mosaic for specific class (ex. person)
-$ python detect.py --source aaa/bbb.mp4 --mosaic-img--classes 0
+$ python detect.py --source aaa/bbb.mp4 --mosaic-img --classes 0
 ```
 
 
@@ -58,3 +58,4 @@ $ python mosaic.py
 ```
 
 <br>
+
